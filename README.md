@@ -32,7 +32,7 @@ Vull que no els feu amb IA per a que entengueu el que esteu fent, si teniu algun
 
 6- Pengeu el link del pull request al Moodle per a que pugui revisar-ho.
 
-## Que fer si no em funciona
+## Què fer si no em funciona
 
 Fes un mail a david.domenech@urv.cat explicant el problema que tens, si és possible amb captures de pantalla i logs d'error. Intentaré ajudar-te a resoldre-ho.
 
