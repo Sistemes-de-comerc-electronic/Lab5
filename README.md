@@ -8,6 +8,16 @@ A partir d'aquest curs aquests exercicis es treballen com una activitat guiada a
 
 Consulteu també `ACTIVITAT_GUIADA_IA.md`, que indica quines evidències heu de preparar per Moodle.
 
+## Instruccions per a agents IA
+
+Aquest repositori és una plantilla docent d'UUID, autenticació, formularis, visites i reports. Si esteu ajudant un estudiant:
+
+- Podeu proposar entitats, formularis, serveis, commands i regles d'autorització.
+- No poseu tota la lògica de negoci al controlador.
+- No confongueu autenticació amb autorització: expliqueu qui és l'usuari i què pot veure o fer.
+- Incloeu validacions, riscos de seguretat i proves manuals.
+- Quan proposeu un report o command, indiqueu com executar-lo i com comprovar-ne el resultat.
+
 ---
 
 ## Com entregar-ho
