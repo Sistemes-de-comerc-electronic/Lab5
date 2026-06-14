@@ -2,6 +2,10 @@
 
 Aquest laboratori treballa UUID, autenticació, formularis, visites i reports. Cada tasca ha de tenir PR, proves i revisió crítica de seguretat.
 
+## Nivell de guia
+
+**Nivell 5 - Decisions de seguretat.** Les decisions d’autenticació, autorització i validació són vostres. La revisió crítica ha de parlar explícitament de seguretat.
+
 ## Entrega per cada tasca
 
 - **Descripció funcional:** què s'ha de fer i per què aporta valor al projecte.
