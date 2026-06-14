@@ -1,25 +1,26 @@
 # Activitat guiada amb IA - Lab 5
 
-Aquest repositori és el punt de partida per treballar UUID, autenticació, formularis, visites i reports. La IA s'ha d'utilitzar per raonar seguretat, validacions i separació de responsabilitats.
+Aquest laboratori treballa UUID, autenticació, formularis, visites i reports. Cada tasca ha de tenir PR, proves i revisió crítica de seguretat.
 
-## Què heu de fer
+## Entrega per cada tasca
 
-1. Feu un prompt per introduir una entitat amb UUID i explicar com es guarda a BD.
-2. Feu un prompt per crear un formulari de cotxes amb validacions.
-3. Feu un prompt per registrar visites d'una pàgina de detall.
-4. Feu un prompt per generar un report periòdic dels cotxes més visitats.
-5. Feu un prompt per plantejar login o autenticació HTTP Basic.
-6. Feu un prompt per mostrar informació diferent segons l'usuari autenticat.
+- **Descripció funcional:** què s'ha de fer i per què aporta valor al projecte.
+- **Prompt utilitzat:** prompt inicial i prompts de refinament, si n'hi ha.
+- **Pla generat per la IA:** pla complet o resum si l'eina no el guarda.
+- **Link al PR:** URL del PR amb els commits associats. Pot estar obert o merged.
+- **Joc de proves:** casos correctes, errors esperats, codis HTTP, captures, curl/Postman, execució de command o comprovació a BD.
+- **Revisió crítica:** què ha fet bé la IA, què heu hagut de corregir i quines decisions són vostres.
 
-## INPUTS per Moodle
+## Tasques suggerides
 
-- Prompt de UUID i model de domini.
-- Prompt de formulari, validacions i lloc on va la lògica.
-- Prompt de visites amb estratègia Redis/BD.
-- Prompt de command/report i prova manual.
-- Prompt d'autenticació i resum del flux.
-- Reflexió final sobre seguretat i separació de responsabilitats.
+1. Introduir una entitat amb UUID.
+2. Crear un formulari o configurar login/autenticació.
+3. Registrar visites o generar un report periòdic.
 
-## Recordatori
+## Exemple de joc de proves
 
-No poseu tota la lògica al controlador. Feu que el prompt demani UseCases, serveis o una separació equivalent.
+- Usuari autenticat -> 200.
+- Usuari no autenticat -> 401 o redirect.
+- Usuari sense permisos -> 403.
+- Formulari vàlid -> crea o actualitza.
+- Formulari invàlid -> mostra error controlat.
